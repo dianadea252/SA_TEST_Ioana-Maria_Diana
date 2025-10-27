@@ -1,0 +1,29 @@
+﻿1. Ce este Git și care este diferența între Git și GitHub?
+Git is a completed version control system that can tracks every change in your project and all his history.GitHub is a application who help us to have all aour project togheter.
+2. Ce este un repository (repo) în Git?
+A repository is a folder tacked by Git which containg a project and the all his history.
+
+3. Ce înseamnă un commit și ce informații conține?
+A  COMMMIT IS A SNAPSHOT of a project on a point over time.
+
+4. Care este diferența între working directory, staging area și repository?
+The first oane represent the current folder ,that can make changes ,the secound one is a peparation area for the next commmit and the last is practically a folder which realse the last commmit;
+5. Ce este un branch și de ce sunt utile branch-urile?
+A branch is a part separte of a code that you can exeperiment without braking the main code,fixes bug from  new feature,collaborate from anyware,and work with files simultan.
+
+6. Cum creezi un branch nou?
+
+git branch feature login
+
+7. Cum te muți pe un alt branch?
+git switch feature login
+
+8. Cum îmbini un branch în altul?
+
+git switch -b feature login
+
+9. Ce este un merge conflict și cum îl rezolvi?
+A conflict is two branches modify the same line in the same file.For rezolve the problem you can:Open the conflict file,chooose what changes do you want to keep ,remove conflict markers,stage and commit.
+
+10. Ce este .gitignore și cum îl configurezi?
+Gitignore is a command that can help to ignore something:)
